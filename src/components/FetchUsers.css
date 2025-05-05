@@ -1,0 +1,37 @@
+body {
+  background-color: #ffe0f0; /* Light pink background */
+  font-family: Arial, sans-serif;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: #ff91b3; /* Medium pink */
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+p {
+  text-align: center;
+  color: #d8005d; /* Dark pink */
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.spinner-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+/* ClipLoader customization */
+.spinner-container .ClipLoader {
+  color: #d8005d; /* Dark pink */
+}
